@@ -1,0 +1,19 @@
+# 위성 데이터: 아리랑 데이터는 보안서약 대상이라 절대 커밋 금지
+data/
+*.tif
+*.tiff
+*.jp2
+*.h5
+*.nc
+*.SAFE/
+
+# 개인 서류(학적·신분), 대회 양식, 제출본
+private/
+*.zip
+
+# 개발 환경
+.env
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
